@@ -17,19 +17,21 @@ Each group member will be responsible for designing and implementing one of the 
 During the presentation, each member will explain the page they created, the design choices, and the technical implementation.
 Note: Landing page is a collaboration, while the other pages should be created by an individual. If your group has 4 members, the 4 members can work on the landing page and contact form, while the other pages should be created by individual.
 4. Required Pages (Each group must include the following six pages):
-Landing Page – A welcoming introduction to the locality, featuring high-quality visuals and brief highlights.
-About Us (About the Municipality) – Provide an overview of the municipality, including historical and cultural context.
+   
+Landing Page (All) – A welcoming introduction to the locality, featuring high-quality visuals and brief highlights.
+
+About Us (About the Municipality) (All) – Provide an overview of the municipality, including historical and cultural context.
+
 Attractions (Tourist Spots) – List key tourist spots, with descriptions, photos, and practical information (e.g., location, opening hours).
+
 Events and Festivals – Information on local events and festivals, including dates and cultural significance.
+
 Food and Culture – Highlight local cuisine, popular dining spots, and cultural practices or traditions.
-Contact – Contact information, social media links, and an embedded interactive map showing the municipality.
-Landing Page – Serve as an entry point with a welcoming message and an overview of the municipality or city. This page should highlight important announcements, news updates, emergency notifications, and links to popular sections of the website.
-About Us (About the Municipality/Department)– Provide an in-depth look at the history, mission, and structure of the local government, as well as the municipality or city’s key values and vision.
-Services – Offer an organized list of public services available to residents, visitors, and businesses.
-Transparency and Governance –Promote transparency by providing access to public records, government budgets, meeting minutes, and policies.
-Events and Announcements – Keep residents informed about community events, holidays, and upcoming government-related activities.
-Contact Us – Provide residents and visitors with contact options for various government offices and a way to reach out for assistance.
-5. Presentation:
+
+(Wency) Contact – Contact information, social media links, and an embedded interactive map showing the municipality.
+
+
+6. Presentation:
 Each group will create a PowerPoint or similar overview presentation with the following slides:
 Municipality/Department – A brief introduction to the chosen locality.
 Short History of the Municipality/Department – Highlight key historical points.
