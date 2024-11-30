@@ -94,12 +94,18 @@ nav {
     z-index:99;
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
   }
   label.logo {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
-    font-weight: 600;
-    letter-spacing: 1px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
   }
   nav ul {
     float: right;
@@ -123,7 +129,7 @@ nav {
     transition: .5s;
   }
   .checkbtn {
-    font-size: 14px;
+    font-size: 22px;
     color: white;
     float: right;
     line-height: 80px;
@@ -131,9 +137,11 @@ nav {
     cursor: pointer;
     display: none;
   }
-  #check {
+
+  #check{
     display: none;
   }
+
   @media (max-width: 1050px) {
     label.logo {
       padding-left: 30px;
