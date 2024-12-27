@@ -802,21 +802,27 @@ form {
 .contact-methods {
   display: flex;
   justify-content: space-between; 
-  align-items: flex-start;
-  margin-top: 80px;
+  margin-top: 100px;
   gap: 30px; /* Adjusted the gap between the contact methods */
 }
 
 .method {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 15px; 
   width: 30%; 
 }
 
 .contactIcon {
-  font-size: 1.2rem; 
+  margin-top:0.6em;
+  font-size: 1.5rem; 
   color: #333; 
+  flex-shrink: 0;
+}
+.method div {
+  display: flex;
+  flex-direction: column; /* Ensures text aligns in a column */
+  justify-content: center; /* Vertically centers the text */
 }
 
 .social-linkss {
@@ -842,11 +848,13 @@ form {
 .sub-heading {
   font-weight: bold;
   margin: 0;
+  font-size: 1em;
+
 }
 
 .para {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #555;
 }
 
