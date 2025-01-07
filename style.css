@@ -901,11 +901,11 @@ form {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
   background-color: #17181C;
   border: 1px solid #17181C;
   border-radius: 5px;
-  padding: 20px;
+  padding: 30px; 
   height: 100%; 
   box-sizing: border-box;
   overflow: hidden;
@@ -947,6 +947,8 @@ form {
 .thumbnails-wrapper {
   overflow-x: auto;
   white-space: nowrap;
+  margin-left: 26px;
+  margin-right: 40px;
   padding-bottom: 10px; 
 }
 
@@ -965,6 +967,7 @@ form {
   overflow: hidden;
   flex-shrink: 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .thumbnail-box:hover {
@@ -988,14 +991,13 @@ form {
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  text-align:right;
 }
 
 #info {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; 
-  animation: fadeIn 0.5s ease-in-out;
+  align-items: flex-start; 
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 #info h1 {
@@ -1004,22 +1006,24 @@ form {
   text-align:right;
   margin-bottom: 10px;
   margin-top: 70px;
+  margin-left: 26px;
 }
 
 #info h2 {
   font-size: 60px;
   font-family: Brush Script MT;
   color: #BFAFA0;
-  text-align:right;
   margin-bottom: 5px;
   margin-top: 75px;
+  margin-left: 35px;
 }
 
 #info h3 {
   font-size: 80px;
   color: #d0ab3b;
-  text-align:right;
+  text-align:left;
   margin-bottom: 40px;
+  margin-left: 26px;
 }
 
 .google-map-button {
@@ -1035,10 +1039,11 @@ form {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 25px;
+  margin-left: 26px;
 }
 
 .google-map-button:hover {
-  background-color: #357ae8; 
+  background-color: #133e85; 
   cursor: pointer;
 }
 
@@ -1046,25 +1051,27 @@ form {
 #info p {
   font-size: 20px;
   color: #BFAFA0;
-  text-align: center;
-  margin: 5px 0;
+  text-align: left;
+  margin: 5px;
+  margin-left: 26px;
   margin-bottom: 30px;
+  margin-right: 100px;
 }
 
 #info .description {
   font-size: 18px;
   color: #FFEBD2;
   font-style: italic;
-  text-align: right;
-  max-height: 200px;
-  max-width: 670px; 
+  text-align: left;
+  max-height: 150px;
+  max-width: 850px; 
   overflow-y: scroll;
   padding: 10px;
   background-color: #362c2e; 
   border-radius: 5px; 
   border: 1px solid #3F3335; 
   word-wrap: break-word; 
-  margin: 10px 0 10px auto;
+  margin: 25px 20px 10px 28px;
 }
 
 #info .description::-webkit-scrollbar {
@@ -1090,6 +1097,7 @@ form {
   color: #D4D3D9;
   font-weight: bold;
   text-align: right;
+  margin-left: 26px;
 
 }
 
@@ -1098,6 +1106,7 @@ form {
   color: #D4D3D9;
   font-weight: bold;
   text-align: right;
+  margin-left: 26px;
 }
 
 #info .map-link {
@@ -1109,7 +1118,9 @@ form {
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 26px;
   
 }   
 
@@ -1117,7 +1128,8 @@ form {
   width: 115px;
   height: auto;
   display: inline-block;
-  margin: 10px 0;
+  margin: 1px 0;
+  margin-left: 26px;
 }
 
 #info .contact-image {
@@ -1125,11 +1137,13 @@ form {
   height: auto;
   display: inline-block;
   margin: 10px 0;
-  text-align: right;
+  margin-bottom: 20px;
+  margin-left: 26px;
+ 
 }
 
 .map-link:hover {
-  background-color: #357ae8;
+  background-color: #153870;
   transition: background-color 0.3s ease;
 
 }
@@ -1147,5 +1161,51 @@ form {
   to {
       opacity: 1;
       transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .main-container {
+      flex-direction: column; 
+      height: auto; 
+  }
+
+  .left-container, .right-container {
+      flex: none; 
+      width: 100%; 
+      height: auto; 
+  }
+
+  .right-container {
+      align-items: center; 
+      padding: 15px; 
+  }
+
+  .right-container > * {
+      width: 100%;
+      margin-bottom: 10px; 
+  }
+
+  .thumbnail-box {
+      width: 100px;
+      height: 100px;
+  }
+
+  .thumbnail-box img {
+      width: 100%;
+      height: 100%;
+  }
+
+  #info h1 {
+      font-size: 40px; 
+  }
+
+  #info h3, #info h2 {
+      font-size: 30px; 
+  }
+
+  #info p, #info .description {
+      font-size: 16px; 
+      text-align: left; 
   }
 }
